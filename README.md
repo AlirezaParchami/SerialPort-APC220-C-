@@ -9,6 +9,7 @@ And then i understand some variable not inialized
 I didn't do anything else and all of code wrote by him
 i just initiale the variables
 
-Be careful !!!
+## Be careful !!!
+
 in "SerialPort.cpp" and "readSerialPort function" , if you set "toRead =  0" then it try to receive character from source and if it doesn't receive anything, it will pass it and return 0
 but if you set "toRead =  1" , it will stay till it receive at least one char from source
